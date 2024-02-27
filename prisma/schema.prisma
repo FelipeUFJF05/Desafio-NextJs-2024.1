@@ -12,9 +12,9 @@ datasource db {
 
 model Membro {
   id        Int     @id @default(autoincrement())
-  name     String
-  cargo   String
-  email  String
+  name      String  @unique
+  cargo     String
+  email     String  @unique
   published Boolean
 }
 
