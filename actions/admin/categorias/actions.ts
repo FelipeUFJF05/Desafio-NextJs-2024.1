@@ -72,6 +72,20 @@ export async function createMember(formData: FormData) {
     const email = formData.get("email") as string;
     const published = true;
 
+    const existingMember = await prisma.membro.findFirst({
+        where: {
+            OR: [
+                { name },
+                { email }
+            ]
+        }
+    });
+
+    if (existingMember) {
+        throw new Error("Já existe um membro com este nome ou email.");
+    }
+
+
     await prisma.membro.create({
         data: {
             name, cargo, email, published
