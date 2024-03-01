@@ -10,7 +10,7 @@ export default function OurProducts() {
                 <div className="flex flex-wrap gap-4 justify-center my-10">
                     <OurProductsCards 
                     title="Pesos" 
-                    description="Conjunto de halteres de 1 até 10 kg. Além de diversos outros pesos, barras e anilhas"
+                    description="Conjunto de halteres de 1 até 10 kg. Além de diversos outros pesos, barras e anilhas."
                     src="/Home/images/halteres.png" 
                     />
                     <OurProductsCards 
@@ -20,7 +20,7 @@ export default function OurProducts() {
                     />
                     <OurProductsCards 
                     title="Equipamentos" 
-                    description="Aqui na IRONPULSE você também encontra diversos outros itens para os vários tipos de atletas" 
+                    description="Aqui na IRONPULSE você também encontra diversos outros itens para os vários tipos de atletas." 
                     src="/Home/images/objetos.png" 
                     />
                     <OurProductsCards 

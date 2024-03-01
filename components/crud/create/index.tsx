@@ -35,7 +35,6 @@ export default function CreateCategory() {
                             Voltar
                         </button>
                     </Link>
-                    <p id="error" className="text-red-600 text-2xl font-semibold hidden">Já existe um membro com o mesmo nome ou email.</p>
                 </div>
 
             </form>

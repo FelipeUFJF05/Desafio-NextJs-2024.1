@@ -13,7 +13,7 @@ export default function ProductsPage() {
 
                 <ProductsCards name="Luvas e Joelheiras" description="Um conjunto de luvas e joelheiras de alta tecnologia dry-fit, que irão te auxiliar a não sentir mais dor ou desconforto durante os treinos" image='/Products/luva e joelheira.jpg' price="120.00" type="Equipamento" />
 
-                <ProductsCards name="Bolas e Staps infláveis" description="Escolha dentro diversos tipos e tamanhos de bolas de ginásticas e steps infláveis para garantir o melhor alogamento e controle possível." image='/Products/bolas de ginastica.jpg' price="180.00" type="Equipamento" />
+                <ProductsCards name="Bolas e Staps infláveis" description="Escolha dentro diversos tipos e tamanhos de bolas de ginástica e steps infláveis para garantir o melhor alogamento e controle possível." image='/Products/bolas de ginastica.jpg' price="180.00" type="Equipamento" />
 
                 <ProductsCards name="Barra e Anilhas" description="Barras de 10, 15 ou 20 kg, junto com conjunto de anilhas de 2.5 kg até 25 kg." image='/Products/barra e anilhas.jpg' price="400.00" type="Peso" />
 

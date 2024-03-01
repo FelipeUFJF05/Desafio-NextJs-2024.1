@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="text-2xl text-white p-2 rounded-xl">
                 <h1 className="text-3xl">Nossas Redes Sociais:</h1>
                 <div className=" mt-2 flex space-x-4 justify-center items-center">
-                    <Link href='/' className="">
+                    <Link href='https://www.instagram.com/codejr/' className="">
                         <Image
                         src='/Home/social-media/instagram-logo.png'
                         width={40}

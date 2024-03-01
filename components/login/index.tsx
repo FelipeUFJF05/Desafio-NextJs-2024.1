@@ -15,9 +15,9 @@ export default function LoginPage() {
                 <p className="text-white text-2xl">Faça login com sua conta</p>
                 <p className="text-white text-3xl font-bold pb-8">IRONPULSE</p>
 
-                <form className="flex flex-col w-3/4" autoComplete="off">
-                    <input type="email" placeholder="Email" className="my-6 rounded-lg pl-2 py-1 italic font-semibold"/>
-                    <input type="text" placeholder="Senha" className="rounded-lg pl-2 py-1 italic font-semibold"/>
+                <form className="flex flex-col w-3/4" autoComplete="off" action={"/admin"}>
+                    <input type="email" placeholder="Email" className="my-6 rounded-lg pl-2 py-1 italic font-semibold" required/>
+                    <input type="password" placeholder="Senha" className="rounded-lg pl-2 py-1 italic font-semibold" required/>
                     <Link href='/admin'>
                         <button className="text-2xl text-black border-2 border-black py-2 px-8 bg-white rounded-full hover:bg-red-950 hover:text-white hover:border-white transition duration-300 ease-in-out my-10">
                             Login
