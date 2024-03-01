@@ -66,6 +66,7 @@ export async function deleteMember(id: number | undefined) {
     redirect("/admin")
 }
 
+
 export async function createMember(formData: FormData) {
     const name = formData.get("name") as string;
     const cargo = formData.get("cargo") as string;
@@ -82,7 +83,7 @@ export async function createMember(formData: FormData) {
     });
 
     if (existingMember) {
-        throw new Error("Já existe um membro com este nome ou email.");
+        redirect("/warning");
     }
 
 
