@@ -4,7 +4,7 @@ export default function ProductsPage() {
     return(
         <div className="w-full min-h-screen px-12 flex flex-col items-center justify-center">
             <div className="flex justify-center flex-col col-2 items-center space-y-5 mt-12 mb-16">
-                <h1 className="text-red-700 text-3xl font-extrabold uppercase">Nossos Produtos</h1>
+                <h1 className="text-red-700 text-3xl text-center font-extrabold uppercase">Nossos Produtos</h1>
                 <h3 className="text-gray-600 text-xl font-semibold text-center">Confira os produtos que nossos clientes adoram!</h3>
             </div>
 

@@ -33,12 +33,12 @@ export default function ProductsCards({name, description, price, image, type}: C
                         <div className="flex justify-between gap-4 items-center">
                             <div className="flex gap-2 items-center text-lg font-bold text-green-600">
                                 <Wallet className="h-7 w-7" />
-                                <span className="text-lg 2xl:text-xl 3xl:text-2xl"> R$ {price}</span>
+                                <span className="text-md 2xl:text-lg 3xl:text-xl"> R$ {price}</span>
                             </div>
 
-                            <div className="flex gap-2 items-center text-lg font-bold text-red-600">
+                            <div className="flex gap-2 items-center text-lg font-bold text-red-600 overflow-hidden">
                                 <Dumbbell className="w-7 h-7" />
-                                <span className="text-lg">{type}</span>
+                                <span className="text-md 2xl:text-lg 3xl:text-xl overflow-hidden">{type}</span>
                             </div>
 
                         </div>

@@ -25,7 +25,7 @@ export default function Header() {
     return(
         <header className="bg-red-950 sticky top-0 z-20 mx-auto w-full py-8 px-4 md:p-0 mb-0">
             <div className="flex flex-wrap items-center justify-between w-full md:w-10/12 mx-auto">
-                <Link href='/' className="flex gap-4 items-center">
+                <Link href='/' className="flex  items-center">
                     <Image
                     src={'/Home/logos/logo.png'}
                     alt="Logo do site"
@@ -33,7 +33,7 @@ export default function Header() {
                     height={904}
                     className="h-20 w-20 rounded-xl"
                     />
-                    <span className="text-white text-3xl font-semibold">IRONPULSE</span>
+                    <span className="text-white text-xl xl:text-3xl 2xl-text-4xl 3xl-text-5xl font-semibold">IRONPULSE</span>
                 </Link>
                 <nav className="flex justify-end">
                     <div className="hidden w-full md:flex justify-end items-center gap-4">
