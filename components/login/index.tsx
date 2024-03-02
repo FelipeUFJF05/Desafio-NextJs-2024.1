@@ -12,7 +12,7 @@ export default function LoginPage() {
                     height={600}
                     className="w-32 h-32 mt-5"
                     />
-                <p className="text-white text-2xl">Faça login com sua conta</p>
+                <p className="text-white text-2xl px-2">Faça login com sua conta</p>
                 <p className="text-white text-3xl font-bold pb-8">IRONPULSE</p>
 
                 <form className="flex flex-col w-3/4" autoComplete="off" action={"/admin"}>
