@@ -21,7 +21,7 @@ export default function Contacts() {
                             />
                             <h2 className="text-xl">Email</h2>
                             <input 
-                                type="text"
+                                type="email"
                                 name="Email"
                                 className="h-10 pl-2 mb-5 w-full"
                                 required
